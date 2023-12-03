@@ -18,7 +18,7 @@ class Game():
         self.blue = blue
         self.total_cubes = self.red + self.green + self.blue
 
-def get_game_id(strInput) -> str:
+def get_game_id(strInput) -> int:
     return int(strInput.strip().split(":")[0].split(" ")[1])
 
 def get_games(strInput: str) -> list[str]:
